@@ -1,0 +1,343 @@
+{
+  "offset": 0,
+  "limit": 20,
+  "endOfRecords": true,
+  "count": 1,
+  "results": [
+    {
+      "key": "19a76d4d-58cf-4d82-aadd-0ae851fc475f",
+      "installationKey": "4fd221cd-129c-404f-ab62-fdd2377d12ac",
+      "publishingOrganizationKey": "dfd2c300-b2a3-4deb-ad15-00508affc7b5",
+      "networkKeys": [],
+      "doi": "10.15468/87ndwt",
+      "version": "1.2",
+      "external": false,
+      "numConstituents": 0,
+      "type": "OCCURRENCE",
+      "title": "Colección de Paleoinvertebrados  del IANIGLA-CCT CONICET Mendoza: IANIGLA-PI",
+      "description": "Conjunto de datos perteneciente a la Colección de Paleoinvertebrados del IANIGLA-CCT CONICET Mendoza (Argentina) identificada bajo el acrónimo IANIGLA-PI. El material fósil proviene de la colecta y estudio realizados por investigadores de esta institución y de otros centros de Argentina en el marco de proyectos de investigación en virtud de la ley de “Protección del Patrimonio Arqueológico y Paleontológico”. El dataset incluye 2790 registros fósiles. Los ejemplares pertenecientes al Reino Animalia representan la mayor parte del dataset y suman el 98 % (Phylum Annelida, Arthropoda, Brachiopoda, Chordata, Cnidaria, Hemichordata, Mollusca y Porifera). Se presentan además: un ejemplar del Reino Protoctista (Phylum Granoreticulosa) y cuatro registros del Reino Chlorobionta (Phylum Charophyta), 19 ootecas, y 6 trombolitos. La colección tiene 149 especies, 19 holotipos y 67 paratipos. Todos los ejemplares fueron revisados por especialistas. El 86% de los ejemplares proceden fundamentalmente de secuencias paleozoicas y mesozoicas de las provincias de Mendoza y San Juan (Argentina). La curadora de esta colección es Susana Mariel Devincenzi, Licenciada en Ciencias Geológicas.",
+      "language": "spa",
+      "homepage": "https://www.ianigla.mendoza-conicet.gob.ar/bases/banco/fotos/index.php?/category/Paleoinvertebrados",
+      "citation": {
+        "text": "Devincenzi, S M. Colección de Paleoinvertebrados del IANIGLA-CONICET Mendoza: IANIGLA-PI",
+        "citationProvidedBySource": false
+      },
+      "contactsCitation": [],
+      "lockedForAutoUpdate": false,
+      "createdBy": "dfd2c300-b2a3-4deb-ad15-00508affc7b5",
+      "modifiedBy": "crawler.gbif.org",
+      "created": "2024-05-03T23:37:25.571+00:00",
+      "modified": "2024-05-13T01:43:45.507+00:00",
+      "contacts": [
+        {
+          "key": 5322537,
+          "type": "ORIGINATOR",
+          "primary": true,
+          "userId": [
+            "https://orcid.org/0000-0002-4716-1309"
+          ],
+          "firstName": "Susana Mariel",
+          "lastName": "Devincenzi",
+          "position": [
+            "Curadora Colección"
+          ],
+          "email": [
+            "sdevincenzi@mendoza-conicet.gob.ar"
+          ],
+          "phone": [
+            "+54-261-5244274"
+          ],
+          "homepage": [
+            "https://www.conicet.gov.ar/new_scp/detalle.php?id=40411&datos_academicos=yes&keywords="
+          ],
+          "organization": "IANIGLA-CCT CONICET Mendoza",
+          "address": [
+            "Av. Ruiz Leal s/n"
+          ],
+          "city": "Mendoza",
+          "province": "Mendoza",
+          "country": "AR",
+          "postalCode": "5500",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.467+00:00",
+          "modified": "2024-05-13T01:43:45.467+00:00"
+        },
+        {
+          "key": 5322538,
+          "type": "METADATA_AUTHOR",
+          "primary": true,
+          "userId": [
+            "https://orcid.org/0000-0002-4716-1309"
+          ],
+          "firstName": "Susana Mariel",
+          "lastName": "Devincenzi",
+          "position": [
+            "Curadora Colección"
+          ],
+          "email": [
+            "sdevincenzi@mendoza-conicet.gob.ar"
+          ],
+          "phone": [
+            "+54-261-5244274"
+          ],
+          "homepage": [
+            "https://www.conicet.gov.ar/new_scp/detalle.php?id=40411&datos_academicos=yes&keywords="
+          ],
+          "organization": "IANIGLA-CCT CONICET Mendoza",
+          "address": [
+            "Av. Ruiz Leal s/n"
+          ],
+          "city": "Mendoza",
+          "province": "Mendoza",
+          "country": "AR",
+          "postalCode": "5500",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.471+00:00",
+          "modified": "2024-05-13T01:43:45.471+00:00"
+        },
+        {
+          "key": 5322539,
+          "type": "CURATOR",
+          "primary": false,
+          "userId": [
+            "https://orcid.org/0000-0002-4716-1309"
+          ],
+          "firstName": "Susana Mariel",
+          "lastName": "Devincenzi",
+          "position": [
+            "Curadora Colección"
+          ],
+          "email": [
+            "sdevincenzi@mendoza-conicet.gob.ar"
+          ],
+          "phone": [
+            "+54-261-5244274"
+          ],
+          "homepage": [
+            "https://www.conicet.gov.ar/new_scp/detalle.php?id=40411&datos_academicos=yes&keywords="
+          ],
+          "organization": "IANIGLA-CCT CONICET Mendoza",
+          "address": [
+            "Av. Ruiz Leal s/n"
+          ],
+          "city": "Mendoza",
+          "province": "Mendoza",
+          "country": "AR",
+          "postalCode": "5500",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.472+00:00",
+          "modified": "2024-05-13T01:43:45.472+00:00"
+        },
+        {
+          "key": 5322540,
+          "type": "CONTENT_PROVIDER",
+          "primary": false,
+          "userId": [],
+          "firstName": "Osvaldo",
+          "lastName": "Bordonaro",
+          "position": [
+            "Investigador"
+          ],
+          "email": [
+            "osvaldobordonaro@gmail.com"
+          ],
+          "phone": [],
+          "homepage": [],
+          "organization": "IANIGLA-CCT CONICET Mendoza",
+          "address": [
+            "Av. Ruiz Leal s/n"
+          ],
+          "city": "Mendoza",
+          "province": "Mendoza",
+          "country": "AR",
+          "postalCode": "5500",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.474+00:00",
+          "modified": "2024-05-13T01:43:45.474+00:00"
+        },
+        {
+          "key": 5322541,
+          "type": "CONTENT_PROVIDER",
+          "primary": false,
+          "userId": [],
+          "firstName": "Javier",
+          "lastName": "Echevarría",
+          "position": [
+            "investigador"
+          ],
+          "email": [
+            "javierechevarria@fcnym.unlp.edu.ar"
+          ],
+          "phone": [],
+          "homepage": [],
+          "organization": "Museo de Ciencias Naturales La Plata",
+          "address": [],
+          "city": "La Plata",
+          "province": "Buenos Aires",
+          "country": "AR",
+          "postalCode": "1900",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.476+00:00",
+          "modified": "2024-05-13T01:43:45.476+00:00"
+        },
+        {
+          "key": 5322542,
+          "type": "CONTENT_PROVIDER",
+          "primary": false,
+          "userId": [],
+          "firstName": "Maria Belén",
+          "lastName": "Lara",
+          "position": [
+            "Investigadora"
+          ],
+          "email": [
+            "lara.maria.belen@live.com.ar"
+          ],
+          "phone": [],
+          "homepage": [],
+          "organization": "Centro de Ecología Aplicada del Litoral (CECOAL-CONICET-UNNE).",
+          "address": [
+            "Ruta Provincial 5, km 2.5"
+          ],
+          "city": "Corrientes",
+          "province": "Corrientes",
+          "country": "AR",
+          "postalCode": "3400",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.478+00:00",
+          "modified": "2024-05-13T01:43:45.478+00:00"
+        },
+        {
+          "key": 5322543,
+          "type": "CONTENT_PROVIDER",
+          "primary": false,
+          "userId": [],
+          "firstName": "Matilde Silvia",
+          "lastName": "Beresi",
+          "position": [
+            "investigadora"
+          ],
+          "email": [
+            "mberesi@mendoza-conicet.gob.ar"
+          ],
+          "phone": [],
+          "homepage": [],
+          "organization": "IANIGLA-CCT CONICET Mendoza",
+          "address": [
+            "Av. Ruiz Leal s/n"
+          ],
+          "city": "Mendoza",
+          "province": "Mendoza",
+          "country": "AR",
+          "postalCode": "5500",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.479+00:00",
+          "modified": "2024-05-13T01:43:45.479+00:00"
+        },
+        {
+          "key": 5322544,
+          "type": "ADMINISTRATIVE_POINT_OF_CONTACT",
+          "primary": true,
+          "userId": [
+            "https://orcid.org/0000-0002-4716-1309"
+          ],
+          "firstName": "Susana Mariel",
+          "lastName": "Devincenzi",
+          "position": [
+            "Curadora Colección"
+          ],
+          "email": [
+            "sdevincenzi@mendoza-conicet.gob.ar"
+          ],
+          "phone": [
+            "+54-261-5244274"
+          ],
+          "homepage": [
+            "https://www.conicet.gov.ar/new_scp/detalle.php?id=40411&datos_academicos=yes&keywords="
+          ],
+          "organization": "IANIGLA-CCT CONICET Mendoza",
+          "address": [
+            "Av. Ruiz Leal s/n"
+          ],
+          "city": "Mendoza",
+          "province": "Mendoza",
+          "country": "AR",
+          "postalCode": "5500",
+          "createdBy": "crawler.gbif.org",
+          "modifiedBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.480+00:00",
+          "modified": "2024-05-13T01:43:45.480+00:00"
+        }
+      ],
+      "endpoints": [
+        {
+          "key": 1011033,
+          "type": "DWC_ARCHIVE",
+          "url": "https://ipt.mincyt.gob.ar/archive.do?r=susana_ianigla",
+          "createdBy": "dfd2c300-b2a3-4deb-ad15-00508affc7b5",
+          "modifiedBy": "dfd2c300-b2a3-4deb-ad15-00508affc7b5",
+          "created": "2024-05-03T23:38:32.373+00:00",
+          "modified": "2024-05-03T23:38:32.373+00:00",
+          "machineTags": []
+        },
+        {
+          "key": 1011032,
+          "type": "EML",
+          "url": "https://ipt.mincyt.gob.ar/eml.do?r=susana_ianigla",
+          "createdBy": "dfd2c300-b2a3-4deb-ad15-00508affc7b5",
+          "modifiedBy": "dfd2c300-b2a3-4deb-ad15-00508affc7b5",
+          "created": "2024-05-03T23:38:32.322+00:00",
+          "modified": "2024-05-03T23:38:32.322+00:00",
+          "machineTags": []
+        }
+      ],
+      "machineTags": [
+        {
+          "key": 20761551,
+          "namespace": "crawler.gbif.org",
+          "name": "crawl_attempt",
+          "value": "11",
+          "createdBy": "crawler.gbif.org",
+          "created": "2024-07-15T19:34:06.338+00:00"
+        }
+      ],
+      "tags": [],
+      "identifiers": [
+        {
+          "key": 365588,
+          "type": "UUID",
+          "identifier": "19a76d4d-58cf-4d82-aadd-0ae851fc475f",
+          "createdBy": "crawler.gbif.org",
+          "created": "2024-05-13T01:43:45.482+00:00"
+        },
+        {
+          "key": 365322,
+          "type": "URL",
+          "identifier": "https://ipt.mincyt.gob.ar/resource?r=susana_ianigla",
+          "createdBy": "crawler.gbif.org",
+          "created": "2024-05-03T23:38:32.763+00:00"
+        }
+      ],
+      "comments": [],
+      "bibliographicCitations": [],
+      "curatorialUnits": [],
+      "taxonomicCoverages": [],
+      "geographicCoverages": [],
+      "temporalCoverages": [],
+      "keywordCollections": [],
+      "countryCoverage": [],
+      "collections": [],
+      "dataDescriptions": [],
+      "maintenanceUpdateFrequency": "NOT_PLANNED",
+      "maintenanceChangeHistory": [],
+      "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode"
+    }
+  ]
+}

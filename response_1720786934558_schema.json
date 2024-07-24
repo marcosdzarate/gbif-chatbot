@@ -1,0 +1,418 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "offset": {
+      "type": "number"
+    },
+    "limit": {
+      "type": "number"
+    },
+    "endOfRecords": {
+      "type": "boolean"
+    },
+    "count": {
+      "type": "number"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "installationKey": {
+            "type": "string"
+          },
+          "publishingOrganizationKey": {
+            "type": "string"
+          },
+          "networkKeys": {
+            "type": "array",
+            "items": {}
+          },
+          "doi": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "external": {
+            "type": "boolean"
+          },
+          "numConstituents": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          },
+          "homepage": {
+            "type": "string"
+          },
+          "citation": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "citationProvidedBySource": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "text",
+              "citationProvidedBySource"
+            ]
+          },
+          "contactsCitation": {
+            "type": "array",
+            "items": {}
+          },
+          "lockedForAutoUpdate": {
+            "type": "boolean"
+          },
+          "createdBy": {
+            "type": "string"
+          },
+          "modifiedBy": {
+            "type": "string"
+          },
+          "created": {
+            "type": "string"
+          },
+          "modified": {
+            "type": "string"
+          },
+          "contacts": {
+            "description": "List of person involved in dataset, cam be a CURATOR, METADATA_AUTHOR, ORIGINATOR, CONTENT_PROVIDER,etc",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "number"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "primary": {
+                  "type": "boolean"
+                },
+                "userId": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "position": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "email": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "phone": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "homepage": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "organization": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "city": {
+                  "type": "string"
+                },
+                "province": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "postalCode": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "modifiedBy": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "type",
+                "primary",
+                "userId",
+                "firstName",
+                "lastName",
+                "position",
+                "email",
+                "phone",
+                "homepage",
+                "organization",
+                "address",
+                "city",
+                "province",
+                "country",
+                "postalCode",
+                "createdBy",
+                "modifiedBy",
+                "created",
+                "modified"
+              ]
+            }
+          },
+          "endpoints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "number"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "modifiedBy": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                },
+                "modified": {
+                  "type": "string"
+                },
+                "machineTags": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "key",
+                "type",
+                "url",
+                "createdBy",
+                "modifiedBy",
+                "created",
+                "modified",
+                "machineTags"
+              ]
+            }
+          },
+          "machineTags": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "number"
+                },
+                "namespace": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "namespace",
+                "name",
+                "value",
+                "createdBy",
+                "created"
+              ]
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {}
+          },
+          "identifiers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "number"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "created": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "key",
+                "type",
+                "identifier",
+                "createdBy",
+                "created"
+              ]
+            }
+          },
+          "comments": {
+            "type": "array",
+            "items": {}
+          },
+          "bibliographicCitations": {
+            "type": "array",
+            "items": {}
+          },
+          "curatorialUnits": {
+            "type": "array",
+            "items": {}
+          },
+          "taxonomicCoverages": {
+            "type": "array",
+            "items": {}
+          },
+          "geographicCoverages": {
+            "type": "array",
+            "items": {}
+          },
+          "temporalCoverages": {
+            "type": "array",
+            "items": {}
+          },
+          "keywordCollections": {
+            "type": "array",
+            "items": {}
+          },
+          "countryCoverage": {
+            "type": "array",
+            "items": {}
+          },
+          "collections": {
+            "type": "array",
+            "items": {}
+          },
+          "dataDescriptions": {
+            "type": "array",
+            "items": {}
+          },
+          "maintenanceUpdateFrequency": {
+            "type": "string"
+          },
+          "maintenanceChangeHistory": {
+            "type": "array",
+            "items": {}
+          },
+          "license": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "installationKey",
+          "publishingOrganizationKey",
+          "networkKeys",
+          "doi",
+          "version",
+          "external",
+          "numConstituents",
+          "type",
+          "title",
+          "description",
+          "language",
+          "homepage",
+          "citation",
+          "contactsCitation",
+          "lockedForAutoUpdate",
+          "createdBy",
+          "modifiedBy",
+          "created",
+          "modified",
+          "contacts",
+          "endpoints",
+          "machineTags",
+          "tags",
+          "identifiers",
+          "comments",
+          "bibliographicCitations",
+          "curatorialUnits",
+          "taxonomicCoverages",
+          "geographicCoverages",
+          "temporalCoverages",
+          "keywordCollections",
+          "countryCoverage",
+          "collections",
+          "dataDescriptions",
+          "maintenanceUpdateFrequency",
+          "maintenanceChangeHistory",
+          "license"
+        ]
+      }
+    }
+  },
+  "required": [
+    "offset",
+    "limit",
+    "endOfRecords",
+    "count",
+    "results"
+  ]
+}
