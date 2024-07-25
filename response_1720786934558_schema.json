@@ -21,22 +21,28 @@
         "type": "object",
         "properties": {
           "key": {
+            "description": "The key of the dataset as UUID",
             "type": "string"
           },
           "installationKey": {
+            "description": "The key of the installation that host the IPT",
             "type": "string"
           },
           "publishingOrganizationKey": {
+            "description": "The key of the organization that publish the dataset",
             "type": "string"
           },
           "networkKeys": {
             "type": "array",
+            "description": "Networks are collections of datasets, organized outside the Node-Organization model to serve some purpose.",
             "items": {}
           },
           "doi": {
+            "description": "The DOI that refers to the dataset",
             "type": "string"
           },
           "version": {
+            "description": "version of the dataset",
             "type": "string"
           },
           "external": {
@@ -46,21 +52,27 @@
             "type": "number"
           },
           "type": {
+            "description": "The primary type of the dataset. Available values : OCCURRENCE, CHECKLIST, METADATA, SAMPLING_EVENT, MATERIAL_ENTITY",
             "type": "string"
           },
           "title": {
+            "description": "The title of the dataset.",
             "type": "string"
           },
           "description": {
+            "description": "A description of the dataset.",
             "type": "string"
           },
           "language": {
+            "description": "The language of the dataset metadata.",
             "type": "string"
           },
           "homepage": {
+            "description": "A homepage with further details on the dataset.",
             "type": "string"
           },
           "citation": {
+            "description": "Citations retrieved from this dataset's metadata documents.",
             "type": "object",
             "properties": {
               "text": {
@@ -76,106 +88,133 @@
             ]
           },
           "contactsCitation": {
+            "description": "Contacts use to generate a citation.",
             "type": "array",
             "items": {}
           },
           "lockedForAutoUpdate": {
+            "description": "This is generally used when the publisher has technical problems or limitations with their publication system.",
             "type": "boolean"
           },
           "createdBy": {
+            "description": "The GBIF username of the creator of the dataset.",
             "type": "string"
           },
           "modifiedBy": {
+            "description": "The GBIF username of the last user to modify the dataset.",
             "type": "string"
           },
           "created": {
+            "description": "Timestamp of when the dataset was created.",
             "type": "string"
           },
           "modified": {
+            "description": "Timestamp of when the dataset was modified.",
             "type": "string"
           },
           "contacts": {
-            "description": "List of person involved in dataset, cam be a CURATOR, METADATA_AUTHOR, ORIGINATOR, CONTENT_PROVIDER,etc",
+            "description": "A list of contacts associated with this dataset.",
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
                 "key": {
+                  "description": "Identifier for the contact",
                   "type": "number"
                 },
                 "type": {
+                  "description": "The type of contact, values can be: TECHNICAL_POINT_OF_CONTACT, ADMINISTRATIVE_POINT_OF_CONTACT, POINT_OF_CONTACT, ORIGINATOR, METADATA_AUTHOR, PRINCIPAL_INVESTIGATOR, AUTHOR, CONTENT_PROVIDER, CUSTODIAN_STEWARD, DISTRIBUTOR, EDITOR, OWNER, PROCESSOR, PUBLISHER, USER, PROGRAMMER, CURATOR, DATA_ADMINISTRATOR, SYSTEM_ADMINISTRATOR, HEAD_OF_DELEGATION, TEMPORARY_HEAD_OF_DELEGATION, ADDITIONAL_DELEGATE, TEMPORARY_DELEGATE, REGIONAL_NODE_REPRESENTATIVE, NODE_MANAGER, NODE_STAFF, REVIEWER ",
                   "type": "string"
                 },
                 "primary": {
+                  "description": "Whether this is the primary contact for the associated entity.",
                   "type": "boolean"
                 },
                 "userId": {
+                  "description": "A list of user identifiers for this contact.",
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
                 "firstName": {
+                  "description": "The personal name of the contact.",
                   "type": "string"
                 },
                 "lastName": {
+                  "description": "The family name of the contact.",
                   "type": "string"
                 },
                 "position": {
+                  "description": "The contact's position, job title or similar within the organization.",
                   "type": "array",
                   "items": {
+                    "description": "The contact's position, job title or similar within the organization.",
                     "type": "string"
                   }
                 },
                 "email": {
+                  "description": "Email addresses associated with this contact.",
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
                 "phone": {
+                  "description": "Telephone numbers associated with this contact.",
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
                 "homepage": {
+                  "description": "Homepages with further details on the contact.",
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
                 "organization": {
+                  "description": "The organization (e.g. employer) associated with this contact.",
                   "type": "string"
                 },
                 "address": {
+                  "description": "Address lines other than the city, province, country andpostal code, which have their own fields.",
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
                 "city": {
+                  "description": "The city or similar line of the contact's address.",
                   "type": "string"
                 },
                 "province": {
+                  "description": "The province or similar line of the contact's address.",
                   "type": "string"
                 },
                 "country": {
+                  "description": "The country or other region of the contact's address.",
                   "type": "string"
                 },
                 "postalCode": {
+                  "description": "The postal code or similar line of the contact's address.",
                   "type": "string"
                 },
                 "createdBy": {
+                  "description": "The GBIF username of the creator of the contact",
                   "type": "string"
                 },
                 "modifiedBy": {
+                  "description": "The GBIF username of the last user to modify the contact",
                   "type": "string"
                 },
                 "created": {
+                  "description": "Timestamp of when the contact was created",
                   "type": "string"
                 },
                 "modified": {
+                  "description": "Timestamp of when the contact was last modified",
                   "type": "string"
                 }
               },
@@ -204,32 +243,41 @@
             }
           },
           "endpoints": {
+            "description": "A list of endpoints associated with this dataset.",
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
                 "key": {
+                  "description": "Identifier for the endpoint",
                   "type": "number"
                 },
                 "type": {
+                  "description": "endpoint type, cam be: EML, FEED, WFS, WMS, TCS_RDF, TCS_XML, DWC_ARCHIVE, DIGIR, DIGIR_MANIS, TAPIR, BIOCASE, BIOCASE_XML_ARCHIVE, OAI_PMH, COLDP, CAMTRAP_DP, OTHER",
                   "type": "string"
                 },
                 "url": {
+                  "description": "the url of the endpoint",
                   "type": "string"
                 },
                 "createdBy": {
+                  "description": "The GBIF username of the creator of the endpoint",
                   "type": "string"
                 },
                 "modifiedBy": {
+                  "description": "The GBIF username of the last user to modify the endpoint",
                   "type": "string"
                 },
                 "created": {
+                  "description": "Timestamp of when the endpoint was created",
                   "type": "string"
                 },
                 "modified": {
+                  "description": "Timestamp of when the endpoint was last modified",
                   "type": "string"
                 },
                 "machineTags": {
+                  "description": "Machine tags applied to the endpoint",
                   "type": "array",
                   "items": {}
                 }
@@ -247,26 +295,33 @@
             }
           },
           "machineTags": {
+            "description": "A list of machine tags associated with this publishing organization.",
             "type": "array",
             "items": {
               "type": "object",
               "properties": {
                 "key": {
+                  "description": "Identifier for the machine tag.",
                   "type": "number"
                 },
                 "namespace": {
+                  "description": "The namespace for the machine tag.",
                   "type": "string"
                 },
                 "name": {
+                  "description": "The name (within the namespace) of the machine tag.",
                   "type": "string"
                 },
                 "value": {
+                  "description": "The value of the machine tag.",
                   "type": "string"
                 },
                 "createdBy": {
+                  "description": "The GBIF username of the creator of the machine tag.",
                   "type": "string"
                 },
                 "created": {
+                  "description": "Timestamp of when the machine tag was created.",
                   "type": "string"
                 }
               },
@@ -281,6 +336,7 @@
             }
           },
           "tags": {
+            "description": "A list of tags associated with this dataset.",
             "type": "array",
             "items": {}
           },
@@ -290,6 +346,7 @@
               "type": "object",
               "properties": {
                 "key": {
+                  "description": "Identifier for the tag",
                   "type": "number"
                 },
                 "type": {
@@ -299,9 +356,11 @@
                   "type": "string"
                 },
                 "createdBy": {
+                  "description": "The GBIF username of the creator of the tag",
                   "type": "string"
                 },
                 "created": {
+                  "description": "Timestamp of when the tag was created",
                   "type": "string"
                 }
               },
@@ -315,53 +374,66 @@
             }
           },
           "comments": {
+            "description": "A list of comments associated with this dataset.",
             "type": "array",
             "items": {}
           },
           "bibliographicCitations": {
+            "description": "Citations retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "curatorialUnits": {
+            "description": "Curatorial unit information retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "taxonomicCoverages": {
+            "description": "Taxonomic coverage information retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "geographicCoverages": {
+            "description": "Geographic coverage description retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "temporalCoverages": {
+            "description": "Temporal coverage information retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "keywordCollections": {
+            "description": "Keyword collections retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "countryCoverage": {
+            "description": "Country coverage information retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "collections": {
+            "description": "Collection information retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "dataDescriptions": {
+            "description": "Data description information retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "maintenanceUpdateFrequency": {
+            "description": "The maintenance update frequency retrieved from this dataset's metadata documents.",
             "type": "string"
           },
           "maintenanceChangeHistory": {
+            "description": "The maintenance description retrieved from this dataset's metadata documents.",
             "type": "array",
             "items": {}
           },
           "license": {
+            "description": "The data and metadata license retrieved from this dataset's metadata documents. values can be: CC0_1_0, CC_BY_4_0, CC_BY_NC_4_0, UNSPECIFIED, UNSUPPORTED",
             "type": "string"
           }
         },
